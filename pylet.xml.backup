@@ -1,0 +1,335 @@
+<project>
+    <shortName>pylet</shortName>
+    <fullName>Pylet</fullName>
+    <version>0.1</version>
+    <leftImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_sidebar.png</leftImage>
+    <logoImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_logo.png</logoImage>
+    <splashImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_splash.png</splashImage>
+    <componentList>
+        <component>
+            <name>default</name>
+            <description>Default Component</description>
+            <canBeEdited>1</canBeEdited>
+            <selected>1</selected>
+            <show>1</show>
+            <folderList>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfiles</name>
+                    <platforms>all</platforms>
+                    <shortcutList>
+                        <shortcut>
+                            <comment>Uninstall</comment>
+                            <exec>${installdir}/${uninstallerName}</exec>
+                            <icon></icon>
+                            <name>Uninstall ${product_fullname}</name>
+                            <path>${installdir}</path>
+                            <platforms>all</platforms>
+                            <runAsAdmin>0</runAsAdmin>
+                            <runInTerminal>0</runInTerminal>
+                            <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                            <windowsExecArgs></windowsExecArgs>
+                            <windowsIcon></windowsIcon>
+                            <windowsPath>${installdir}</windowsPath>
+                        </shortcut>
+                    </shortcutList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux</name>
+                    <platforms>linux</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileswindows</name>
+                    <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Widgetsd.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/boost_python-vc120-mt-1_58.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/D3Dcompiler_47.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/libEGL.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/libGLESV2.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/opengl32sw.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/pylet.exe</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/pylet.exp</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/pylet.lib</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Core.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Cored.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Gui.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Guid.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Svg.dll</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/Qt5Widgets.dll</origin>
+                        </distributionFile>
+                        <distributionDirectory>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/DLLs</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/iconengines</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/imageformats</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/lib</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/platforms</origin>
+                        </distributionDirectory>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/pylet_temp_logo.ico</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Pylet Installation/autorun.exe</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/Jake/Documents/Software/Qt/pylet-build/Release/python34.dll</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfilesosx</name>
+                    <platforms>osx</platforms>
+                </folder>
+            </folderList>
+            <startMenuShortcutList>
+                <startMenuShortcut>
+                    <comment>Uninstall ${product_fullname}</comment>
+                    <name>Uninstall ${product_fullname}</name>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon></windowsIcon>
+                    <windowsPath>${installdir}/</windowsPath>
+                </startMenuShortcut>
+                <startMenuShortcut>
+                    <comment></comment>
+                    <name>Pylet</name>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/pylet.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon>${installdir}/pylet_temp_logo.ico</windowsIcon>
+                    <windowsPath>${windows_folder_personal}</windowsPath>
+                </startMenuShortcut>
+            </startMenuShortcutList>
+        </component>
+        <component>
+            <name>autoupdater</name>
+            <description>Pylet Autoupdater</description>
+            <canBeEdited>0</canBeEdited>
+            <selected>1</selected>
+            <show>0</show>
+            <folderList>
+                <folder>
+                    <destination>${installdir}</destination>
+                    <name>autoupdaterwin</name>
+                    <platforms>windows</platforms>
+                    <distributionFileList>
+                        <distributionFile origin="C:/Users/Jake/Documents/AutoUpdate/output/autoupdate-windows.exe"/>
+                    </distributionFileList>
+                </folder>
+            </folderList>
+            <postInstallationActionList>
+                <writeFile>
+                    <path>${installdir}/update.ini</path>
+                    <text>[Update]
+url = https://jschadaway.github.io/pylet/current/update.xml
+version_id = 01
+update_download_location = ${windows_folder_windows}\..\Temp
+check_for_updates = 1
+                   </text>
+                </writeFile>
+            </postInstallationActionList>
+        </component>
+    </componentList>
+    <postInstallationActionList>
+        <deleteFile path="${installdir}/tmp/"/>
+        <deleteFile path="${installdir}/rollbackBackupDirectory/"/>
+        <setInstallerVariableFromScriptOutput>
+            <abortOnError>0</abortOnError>
+            <exec>schtasks</exec>
+            <execArgs>/query /fo list</execArgs>
+            <name>output</name>
+            <showMessageOnError>0</showMessageOnError>
+        </setInstallerVariableFromScriptOutput>
+        <setInstallerVariable name="taskName" value="Pylet Update"/>
+        <setInstallerVariable name="taskExists" value="0"/>
+        <setInstallerVariable>
+            <name>taskExists</name>
+            <value>1</value>
+            <ruleList>
+                <regExMatch>
+                    <logic>matches</logic>
+                    <pattern>TaskName:\s*(${taskName})\n</pattern>
+                    <text>${output}</text>
+                </regExMatch>
+            </ruleList>
+        </setInstallerVariable>
+        <addScheduledTask>
+            <dayOfMonth>1</dayOfMonth>
+            <disallowStartIfOnBatteries>0</disallowStartIfOnBatteries>
+            <duration></duration>
+            <endDate></endDate>
+            <interval></interval>
+            <name>Pylet Update</name>
+            <password></password>
+            <period>1</period>
+            <program>${installdir}/autoupdate-windows.exe</program>
+            <programArguments>--mode unattended --unattendedmodebehavior download</programArguments>
+            <runAsAdmin>1</runAsAdmin>
+            <runOnlyIfLoggedOn>1</runOnlyIfLoggedOn>
+            <startDate></startDate>
+            <startTime></startTime>
+            <type>ONLOGON</type>
+            <weekDays>*</weekDays>
+            <ruleList>
+                <isFalse value="${taskExists}"/>
+                <platformTest>
+                    <type>windows</type>
+                </platformTest>
+            </ruleList>
+        </addScheduledTask>
+    </postInstallationActionList>
+    <preUninstallationActionList>
+        <deleteFile path="${windows_folder_common_desktopdirectory}/Pylet.lnk"/>
+        <deleteFile path="${windows_folder_desktopdirectory}/Pylet.lnk"/>
+        <deleteFile path="${windows_folder_common_startmenu}/Programs/Pylet.lnk"/>
+        <deleteFile path="${windows_folder_startmenu}/Programs/Pylet.lnk"/>
+        <deleteFile path="${windows_folder_common_startmenu}/Pylet.lnk"/>
+        <deleteFile path="${windows_folder_startmenu}/Pylet.lnk"/>
+        <deleteFile path="${installdir}/config.ini"/>
+        <deleteFile path="${installdir}/update.ini"/>
+        <deleteFile path="${installdir}/tmp/"/>
+        <deleteFile path="${installdir}/rollbackBackupDirectory/"/>
+        <deleteScheduledTask>
+            <name>Pylet Update</name>
+        </deleteScheduledTask>
+    </preUninstallationActionList>
+    <enableRollback>1</enableRollback>
+    <enableTimestamp>1</enableTimestamp>
+    <splashScreenDelay>3000</splashScreenDelay>
+    <vendor>Boston University</vendor>
+    <versionId>01</versionId>
+    <finalPageActionList>
+        <createShortcuts>
+            <destination>${windows_folder_common_desktopdirectory}</destination>
+            <progressText>Create a desktop icon</progressText>
+            <shortcutList>
+                <shortcut>
+                    <comment></comment>
+                    <exec></exec>
+                    <icon></icon>
+                    <name>Pylet</name>
+                    <path></path>
+                    <platforms>windows</platforms>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/pylet.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon>${installdir}/pylet_temp_logo.ico</windowsIcon>
+                    <windowsPath>${installdir}</windowsPath>
+                </shortcut>
+            </shortcutList>
+        </createShortcuts>
+        <createShortcuts>
+            <destination>${windows_folder_common_startmenu}/Programs</destination>
+            <progressText>Create a start menu shortcut</progressText>
+            <shortcutList>
+                <shortcut>
+                    <comment></comment>
+                    <exec></exec>
+                    <icon></icon>
+                    <name>Pylet</name>
+                    <path></path>
+                    <platforms>windows</platforms>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/pylet.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon>${installdir}/pylet_temp_logo.ico</windowsIcon>
+                    <windowsPath>${installdir}</windowsPath>
+                </shortcut>
+            </shortcutList>
+        </createShortcuts>
+        <runProgram progressText="Launch Pylet" run="0">
+            <program>${installdir}/pylet.exe</program>
+            <programArguments>&amp;</programArguments>
+        </runProgram>
+    </finalPageActionList>
+    <parameterList>
+        <directoryParameter>
+            <name>installdir</name>
+            <description>Installation Directory</description>
+            <explanation>Please specify the directory where ${project.fullName} will be installed</explanation>
+            <value></value>
+            <default>${platform_install_prefix}/${project.fullName}</default>
+            <allowEmptyValue>0</allowEmptyValue>
+            <ask>yes</ask>
+            <cliOptionName>prefix</cliOptionName>
+            <mustBeWritable>yes</mustBeWritable>
+            <mustExist>0</mustExist>
+            <width>40</width>
+            <postShowPageActionList>
+                <setInstallerVariable>
+                    <name>project.installationType</name>
+                    <value>upgrade</value>
+                    <ruleList>
+                        <fileTest condition="exists" path="${installdir}"/>
+                    </ruleList>
+                </setInstallerVariable>
+            </postShowPageActionList>
+            <validationActionList>
+                <throwError>
+                    <text>You don't have enough disk space to install the application,
+                 please select another installation directory</text>
+                    <ruleList>
+                        <checkFreeDiskSpace>
+                            <logic>less</logic>
+                            <path>${installdir}</path>
+
+                            <!-- ${required_diskspace} is automatically calculated by
+                         InstallBuilder with all the files packed -->
+                            <size>${required_diskspace}</size>
+                        </checkFreeDiskSpace>
+                    </ruleList>
+                </throwError>
+            </validationActionList>
+        </directoryParameter>
+    </parameterList>
+</project>
+

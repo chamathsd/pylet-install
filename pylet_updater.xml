@@ -1,0 +1,17 @@
+<autoUpdateProject>
+    <fullName>Pylet</fullName>
+    <shortName>pylet</shortName>
+    <vendor>Boston University</vendor>
+    <version>0.1</version>
+    <singleInstanceCheck>1</singleInstanceCheck>
+    <requireInstallationByRootUser>1</requireInstallationByRootUser>
+    <requestedExecutionLevel>requireAdministrator</requestedExecutionLevel>
+    <leftImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_sidebar.png</leftImage>
+    <logoImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_logo.png</logoImage>
+    <splashImage>C:/Users/Jake/Documents/Pylet Installation/pylet_install_splash.png</splashImage>
+    <enableSslSupport>1</enableSslSupport>
+    <autoUpdateInitializationActionList>
+        <deleteFile path="${installdir}/tmp/"/>
+        <deleteFile path="${installdir}/rollbackBackupDirectory/"/>
+    </autoUpdateInitializationActionList>
+</autoUpdateProject>
